@@ -1,0 +1,511 @@
+:root{
+    --bg-color: #efefef;
+    --input-placeholder:#d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #ffff;
+    --azul-destaque: #2a7ae4;
+    --bg-contacto:#Eaf2fd;
+    font-family: "Releway", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--bg-color);
+}
+
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input::placeholder, textarea::placeholder{
+    color: var(--input-placeholder);
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button {
+    cursor: pointer;
+}
+
+header{
+    background-color: var(--texto-destaque);
+    padding: 1.5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-busqueda{
+    margin-left: 175px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .logo{
+        display:flex;
+        align-items: center;
+    }
+
+    .logo img{
+        height: 30px;
+        width: 40px;
+    }
+    .logo p{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .logo .logo-azul{
+        margin-left: 10px;
+        color: var(--azul-destaque);
+    }
+    .logo-busqueda input{
+        margin-left: 10%;
+        width: 395%;
+        height: 40px;
+        border-radius: 30px;
+        padding: 1%, 3%;
+        border: none;
+        background-color: var(--input-bg);
+        background-image: url(assets/lupa.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 320px;
+    }
+
+    .login{
+        width: 600px;
+        display: flex;
+        justify-content: end;
+    }
+    .login button{
+        width: 180px;
+        height: 50px;
+        background: none;
+        border: 1px solid var(--azul-destaque);
+        text-transform: uppercase;
+    }
+    .login button:hover {
+        background-color: var(--azul-destaque);
+        color: var(--texto-destaque);
+    }
+
+.destaque{
+    height: 800px;
+    background-image: url(assets/postergame.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding: 32px;
+}
+    .banner{
+        width: 750;
+        height: 320px;
+        padding-left: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner h1{
+        color: #e24e0e;
+        font-size: 52px;
+        font-weight: bold;
+    }
+    .banner h4{
+        color: #030009;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .banner button{
+        background-color: var(--azul-destaque);
+        border: none;
+        color: var(--texto-destaque);
+        height: 51px;
+        width: 130px;
+
+    }
+
+.geral-prods{
+    display: flex;
+    flex-direction: column;
+    width: 1136px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+    .prod-titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .prod-titulo .titulo{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .mostrar-mas{
+        font-weight: bold;
+        margin-top: 25px;
+        color: var(--azul-destaque);
+    }
+    .products-section{
+        width: 900px;
+        height: 750PX;
+    }
+
+    .seccion-productos,.seccion-productos2{
+        height: 310px;
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+.contacto{
+    display: flex;
+    width: 1518px;
+    height: 368px;
+    justify-content: center;
+    padding: 64px 0;
+    background: #EAF2FD;
+}
+    .referencia{
+        display: flex;
+        width: 350px;
+        margin: 20px 0 0 0;
+    }
+    .referencia img{
+        width: 60px;
+        height: 40px;
+    }
+    .img-crud {
+        width: 250px;
+        height: 200px;
+      }
+    .referencia p{
+        font-size: 26px;
+        font-weight: bolder;
+        color: var(--azul-destaque);
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    .links-utiles{
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        width: 200px;
+        margin-right: 100px;
+    }
+    .links-utiles a{
+        color: black;
+        font-weight: normal;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 500px;
+    }
+    .form p{
+        font-weight: bolder;
+    }
+    .form input{
+        width: 475px;
+        position: relative;
+        height: 56px;
+        border: transparent;
+        margin-bottom: 20px;
+        box-sizing: content-box;
+        padding: 0.5% 2.7%;
+        color: var(--azul-destaque);
+    }
+    .form input:hover{
+        border-bottom: solid 2px var(--azul-destaque);
+        transition: linear 1s;
+    }
+
+    .label-nome {
+        width: 100%;
+        position: absolute;
+        color: var(--input-placeholder);
+        top: 80px;
+        left: 9px;
+        transition: 0.5s;
+      }
+      
+      .input-nome:focus + .label-nome {
+        top: 64px;
+        font-size: 14px;
+        z-index: 2;
+        transition: 0.2s;
+        color: var(--azul-destaque);
+      }
+
+    .form textarea{
+        width: 100%;
+        font-family: "Relaway", sans-serif;
+        border: transparent;
+        color: var(--azul-destaque);
+        margin-bottom: 20px;
+    }
+    .form button{
+        background-color: var(--azul-destaque);
+        border: none;
+        color: var(--texto-destaque);
+        height: 51px;
+        width: 180px;
+    }
+
+    .rodapie{
+        height: 38px;
+        width: 234px;
+        left: 603px;
+        top: 32px;
+        border-radius: nullpx;
+        text-align: center;
+    }
+
+    
+
+
+    @media only screen and (max-width:480px) {
+       
+       
+        body{
+            position: relative;
+            width: 414px;
+            height: 1200px;
+            background: #F5F5F5;
+       }
+
+       header{
+        width: 350px;;
+        height: 120;
+       }
+
+       nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        gap:10px;
+
+        width: 414px;
+        height: 100px;
+
+        /* Preto/branco */
+
+        background: #FFFFFF;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+       }
+       .login{
+        width: 260px;
+        display: flex;
+        justify-content: end;
+       }
+
+        .logo-busqueda{
+            margin-left: 0px;
+            width: 380px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .destaque{
+            width: 350px;
+            height: 250px;
+            background-image: url(assets/postergame.jpg);
+            background-size: 120vw;
+            background-repeat: no-repeat;
+            padding-top: 0px;
+        }
+            .banner{
+                width: 600;
+                height: 220px;
+                padding-left: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                
+            }
+            .banner h1{
+                width: 328px;
+                height: 26px;
+
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 26px;
+                /* identical to box height */
+
+
+                /* Preto/branco */
+
+                color: #FFFFFF;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                    
+                }
+                .banner h4{
+                    color:#e24e0e;
+                    font-size: 16px;
+                    width: 380px;
+                    margin-top: 5px;
+                }
+
+                .banner button{
+                    align-self: center;
+            }
+            main{
+                width: 480px;
+            }
+
+            .geral-prods{
+                margin: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-content: space-around;
+                justify-content: flex-start;
+                align-items: flex-end;
+                padding: 6px;
+                gap: 6px;
+
+                width: 375px;
+                height: 1800px;
+
+
+                /* Inside auto layout */
+
+               
+            }
+
+            section.seccion-productos {
+                height: 740px;
+            }
+
+            .seccion-productos{
+                width: 176px;
+                height: 800px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            
+            }
+
+
+            footer{
+                flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 32px;
+
+            width: 410px;
+            height: 650px;
+            margin-bottom: 30px;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            }
+            
+            .contacto{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 32px;
+
+                width: 410px;
+                height: 625px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+            }
+            .links-utiles{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 16px;
+
+                width: 400px;
+                height: 290px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+            }
+            .form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 410px;
+                height: 229px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 0;
+            }
+            .label-float{
+                width: 370px;
+                height: 56px ;
+            }
+            input.input-nome{
+                width: 370px;
+                height: 56px ;
+                padding-left: 0px;
+                
+                
+            }
+            label.label-nome{
+                text-align: center;
+            }
+        
+        
+    }

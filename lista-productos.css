@@ -1,0 +1,343 @@
+  /*-----------------------Banner-----------------------*/
+  .destaque {
+	height: 315px;
+	background-image: url(../assets/banner-image.png);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	padding: 32px 32px 0px 32px;
+  }
+
+  .banner {
+	width: 751px;
+	height: 261px;
+	padding-left: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+  }
+
+  .banner h1 {
+	color: var(--texto-destaque);
+	font-size: 52px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #323131, 5px 4px 0px rgb(0 0 0 / 15%);
+  }
+
+  .banner h4 {
+	color: var(--texto-destaque);
+	font-size: 22px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #323131, 5px 4px 0px rgb(0 0 0 / 15%);
+  }
+
+  .banner button {
+	background-color: var(--azul-destaque);
+	border: none;
+	color: var(--texto-destaque);
+	height: 51px;
+	width: 130px;
+  }
+
+  /*-----------------------Main-----------------------*/
+
+  .geral-prods {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+  }
+
+  .sessao-produtos {
+	height: 100%;
+	padding: 0px 150px 0px 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+  }
+
+  .prod-titulo {
+	padding: 20px 110px 0px 120px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+
+  .prod-titulo .titulo {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 30px;
+	color: #464646;
+  }
+
+  .mostrar-mais {
+	font-weight: bold;
+	margin-top: 25px;
+	color: var(--azul-destaque);
+	display: flex;
+	padding: 30px;
+  }
+
+  .div-verTudo {
+	display: flex;
+	gap: 0.4rem;
+	margin-right: 10px;
+  }
+
+  .produto {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 32px;
+  }
+
+  .verTudo {
+	width: 15px;
+	height: 15px;
+  }
+  
+  .product-name {
+	color: #464646;
+	font-weight: 500;
+	font-size: 14px;
+  }
+  .preco {
+	color: #464646;
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  .ver-produto {
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  img {
+	width: 176px;
+	height: 174px;
+  }
+  
+  h1,
+  p {
+	margin: 8px 0px 8px 0px;
+  }
+
+  
+
+  @media only screen and (max-width:480px) {
+       
+       
+	body{
+		position: relative;
+		width: 414px;
+		background: #F5F5F5;
+   }
+
+   header{
+	width: 300;
+	height: 120;
+   }
+
+   nav{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	gap:10px;
+
+	width: 414px;
+	height: 100px;
+
+	/* Preto/branco */
+
+	background: #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+   }
+   .login{
+	width: 260px;
+	display: flex;
+	justify-content: end;
+   }
+
+	.logo-busqueda{
+		margin-left: 0px;
+		width: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.destaque{
+		height: 152px;
+		background-image: url(assets/banner.png);
+		background-size: 100vw;
+		background-repeat: no-repeat;
+		padding-top: 0px;
+	}
+		.banner{
+			width: 700;
+			height: 220px;
+			padding-left: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			
+		}
+		.banner h1{
+			width: 328px;
+			height: 26px;
+
+			font-family: 'Raleway';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 26px;
+			/* identical to box height */
+
+
+			/* Preto/branco */
+
+			color: #FFFFFF;
+
+
+			/* Inside auto layout */
+
+			flex: none;
+			order: 0;
+			align-self: stretch;
+			flex-grow: 0;
+				
+			}
+			.banner h4{
+				color: var(--azul-destaque);
+				font-size: 16px;
+			}
+
+			.banner button{
+				align-self: center;
+		}
+
+		.products_title{
+			padding-left: 5px;
+			flex-direction: column;
+		}
+
+		.geral-products{
+			
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			padding: 6px;
+			gap: 6px;
+
+			width: 200px;
+			height: 6800px;
+
+
+			/* Inside auto layout */
+
+		   
+		}
+		.products-section{
+			gap: 10%;
+			align-items: center;
+			justify-content: flex-start;
+		}
+
+		footer{
+			flex-direction: column;
+		align-items: center;
+		padding: 0px;
+		gap: 32px;
+
+		width: 410px;
+		height: 650px;
+		margin-bottom: 30px;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		align-self: stretch;
+		flex-grow: 0;
+		}
+		
+		.contacto{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 15px;
+			gap: 32px;
+
+			width: 390px;
+			height: 625px;
+
+
+			/* Inside auto layout */
+
+			flex: none;
+			order: 0;
+			align-self: stretch;
+			flex-grow: 0;
+		}
+		.links-utiles{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0px;
+			gap: 16px;
+
+			width: 400px;
+			height: 290px;
+
+
+			/* Inside auto layout */
+
+			flex: none;
+			order: 0;
+			align-self: stretch;
+			flex-grow: 0;
+		}
+		.form{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0px;
+			gap: 8px;
+
+			width: 380px;
+			height: 229px;
+
+
+			/* Inside auto layout */
+
+			flex: none;
+			order: 1;
+			align-self: stretch;
+			flex-grow: 0;
+		}
+		.label-float{
+			width: 370px;
+			height: 56px ;
+		}
+		.input-nome{
+			width: 375px;
+			height: 56px ;
+			
+			
+		}
+		.label-nome{
+			text-align: center;
+		}
+
+	
+	
+}
