@@ -1,9 +1,29 @@
 //GET
+/*const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+
+const yourUrl =
+`https://64421097bbf96b0471e6a2af--heroic-pegasus-555ce7.netlify.app/producto`;
 
 const listarProductos = () =>
-    fetch("http://localhost:3000/producto")
+fetch(corsAnywhere + yourUrl, {
+    method: 'GET',
+    headers: new Headers({
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+    }),
+})
+    .then(respuesta => respuesta.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.log(error));*/
+   
+    
+    
+
+const listarProductos = () =>
+    fetch(`http://localhost:3000/producto`)
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
+        
 
 
 const listarUnProducto = (id) => {
