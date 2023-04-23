@@ -20,7 +20,7 @@ fetch(corsAnywhere + yourUrl, {
     
 
 const listarProductos = () =>
-    fetch(`http://localhost:3000/producto`)
+    fetch('https://api.github.com/users/MiyerGonzalez')
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
         
