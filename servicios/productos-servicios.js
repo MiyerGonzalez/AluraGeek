@@ -1,8 +1,8 @@
 //GET
-/*const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
 
 const yourUrl =
-`https://64421097bbf96b0471e6a2af--heroic-pegasus-555ce7.netlify.app/producto`;
+`https://github.com/MiyerGonzalez/alurageek/db.json`;
 
 const listarProductos = () =>
 fetch(corsAnywhere + yourUrl, {
@@ -14,18 +14,18 @@ fetch(corsAnywhere + yourUrl, {
 })
     .then(respuesta => respuesta.json())
     .then((data) => console.log(data))
-    .catch((error) => console.log(error));*/
+    .catch((error) => console.log(error));
    
     
     
 
-const listarProductos = () =>
+/*const listarProductos = () =>
     fetch('https://github.com/MiyerGonzalez/alurageek/db.json', {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}
       })  
         .then(respuesta => respuesta.json())
-        .catch((error) => console.log(error));
+        .catch((error) => console.log(error));*/
         
 
 
