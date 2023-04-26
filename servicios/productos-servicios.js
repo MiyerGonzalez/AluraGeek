@@ -1,7 +1,7 @@
 //GET
 const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
 
-const yourUrl =
+/*const yourUrl =
 `https://github.com/MiyerGonzalez/alurageek/db.json`;
 
 const listarProductos = () =>
@@ -14,18 +14,20 @@ fetch(corsAnywhere + yourUrl, {
 })
     .then(respuesta => respuesta.json())
     .then((data) => console.log(data))
-    .catch((error) => console.log(error));
+    .catch((error) => console.log(error));*/
    
     
     
 
-/*const listarProductos = () =>
+const listarProductos = () =>
     fetch('https://github.com/MiyerGonzalez/alurageek/db.json', {
         method: "GET",
-        headers: {"Content-type": "application/json;charset=UTF-8"}
+        headers: {"Content-type": "application/json;charset=UTF-8",
+                 'Access-Control-Allow-Origin': '*',
+            }
       })  
         .then(respuesta => respuesta.json())
-        .catch((error) => console.log(error));*/
+        .catch((error) => console.log(error));
         
 
 
