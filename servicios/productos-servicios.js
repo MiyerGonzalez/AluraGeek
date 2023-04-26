@@ -7,6 +7,7 @@ const yourUrl =
 const listarProductos = () =>
 fetch(corsAnywhere + yourUrl, {
     method: 'GET',
+    mode: "no-cors",
     headers: new Headers({
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
