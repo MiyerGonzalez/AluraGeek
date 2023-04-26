@@ -22,9 +22,7 @@ fetch(corsAnywhere + yourUrl, {
 const listarProductos = () =>
     fetch('https://github.com/MiyerGonzalez/alurageek/db.json', {
         method: "GET",
-        headers: {"Content-type": "application/json;charset=UTF-8",
-                 'Access-Control-Allow-Origin': '*',
-            }
+        headers: {"Content-type": "application/json;charset=UTF-8"}
       })  
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
