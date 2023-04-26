@@ -20,10 +20,10 @@ fetch(corsAnywhere + yourUrl, {
     
 
 const listarProductos = () =>
-    fetch('https://api.github.com/users/MiyerGonzalez', {
+    fetch('https://github.com/MiyerGonzalez/alurageek/blob/main/db.json', {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}
-      })
+      })  
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
         
