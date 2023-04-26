@@ -23,7 +23,8 @@ const listarProductos = () =>
     fetch('https://api.github.com/MiyerGonzalez/alurageek/db.json/producto', {
         method: "GET",
         mode: "no-cors",
-        headers: {"Content-type": "application/json;charset=UTF-8"}
+        headers: {"Content-type": "application/json;charset=UTF-8",
+        'Access-Control-Allow-Origin': '*',}
       })  
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
