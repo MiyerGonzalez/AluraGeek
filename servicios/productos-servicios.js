@@ -1,5 +1,5 @@
 //GET
-const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+/*const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
 
 const yourUrl =
 `https://github.com/MiyerGonzalez/alurageek/db.json/producto`;
@@ -7,7 +7,6 @@ const yourUrl =
 const listarProductos = () =>
 fetch(corsAnywhere + yourUrl, {
     method: 'GET',
-    mode: "no-cors",
     headers: new Headers({
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
@@ -15,18 +14,19 @@ fetch(corsAnywhere + yourUrl, {
 })
     .then(respuesta => respuesta.json())
     .then((data) => console.log(data))
-    .catch((error) => console.log(error));
+    .catch((error) => console.log(error));*/
    
     
     
 
-/*const listarProductos = () =>
-    fetch('https://github.com/MiyerGonzalez/alurageek/db.json', {
+const listarProductos = () =>
+    fetch('https://github.com/MiyerGonzalez/alurageek/db.json/producto', {
         method: "GET",
+        mode: "no-cors",
         headers: {"Content-type": "application/json;charset=UTF-8"}
       })  
         .then(respuesta => respuesta.json())
-        .catch((error) => console.log(error));*/
+        .catch((error) => console.log(error));
         
 
 
