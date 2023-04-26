@@ -5,7 +5,7 @@ const yourUrl =
 `https://github.com/MiyerGonzalez/alurageek/db.json/producto`;
 
 const listarProductos = () =>
-fetch(yourUrl, {
+fetch(corsAnywhere + yourUrl, {
     method: 'GET',
     headers: new Headers({
         'Content-Type': 'application/json',
