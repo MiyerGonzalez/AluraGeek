@@ -20,7 +20,7 @@ fetch(corsAnywhere + yourUrl, {
     
 
 const listarProductos = () =>
-    fetch('https://github.com/MiyerGonzalez/alurageek/blob/main/db.json', {
+    fetch('https://github.com/MiyerGonzalez/alurageek/db.json', {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}
       })  
