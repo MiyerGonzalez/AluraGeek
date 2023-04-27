@@ -20,7 +20,7 @@ fetch(corsAnywhere + yourUrl, {
     
 
 const listarProductos = () =>
-    fetch('https://docs.github.com/rest/MiyerGonzalez/alurageek/db.json', {
+    fetch('https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto', {
         method: "GET",
         mode: "no-cors",
         headers: {"Content-type": "application/json;charset=UTF-8",
