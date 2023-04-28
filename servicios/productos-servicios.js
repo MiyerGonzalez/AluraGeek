@@ -23,8 +23,8 @@ const listarProductos = () =>
     fetch('https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto', {
         method: "GET",
         mode: "no-cors",
-        headers: {"Content-type": "application/json;charset=UTF-8",
-        'Access-Control-Allow-Origin': '*',}
+        headers: {"Content-type": "application/json;charset=UTF-8"
+        }
       })  
         .then(respuesta => respuesta.json())
         .catch((error) => console.log(error));
