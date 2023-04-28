@@ -1,23 +1,5 @@
 //GET
-/*const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
-
-const yourUrl =
-`https://github.com/MiyerGonzalez/alurageek/db.json/producto`;
-
-const listarProductos = () =>
-fetch(corsAnywhere + yourUrl, {
-    method: 'GET',
-    headers: new Headers({
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-    }),
-})
-    .then(respuesta => respuesta.json())
-    .then((data) => console.log(data))
-    .catch((error) => console.log(error));*/
    
-    
-    
 
 const listarProductos = () =>
     fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto`, {
