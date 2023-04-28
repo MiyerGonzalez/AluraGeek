@@ -1,6 +1,4 @@
 //GET
-   
-
 const listarProductos = () =>
     fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto`, {
         method: "GET",
@@ -14,7 +12,7 @@ const listarProductos = () =>
 
 
 const listarUnProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`)
+    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/${id}`)
     .then((respuesta) => {
         return respuesta.json();
     });
