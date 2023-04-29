@@ -2,7 +2,7 @@
 const listarProductos = () =>
     fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto`, {
         method: "GET",
-        mode: "no-cors",
+        
         headers: {"Content-type": "application/json;charset=UTF-8"
         }
       })  
@@ -12,7 +12,7 @@ const listarProductos = () =>
 
 
 const listarUnProducto = (id) => {
-    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/${id}`)
+    return fetch(`http://localhost:3000/producto/${id}`)
     .then((respuesta) => {
         return respuesta.json();
     });
