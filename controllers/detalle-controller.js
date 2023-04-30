@@ -83,7 +83,7 @@ const verProducto = async() =>{
                   throw new error();
               }
           }catch(error){
-              console.log("catch error", error)
+              console.log( error)
           }
       }
       verProducto();
