@@ -16,7 +16,7 @@ const listarUnProducto = (id) => {
     .then((respuesta) => {
         return respuesta.json();
     })
-    .catch((error) => console.log(error));
+
 };
 
 
