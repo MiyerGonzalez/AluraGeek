@@ -13,7 +13,8 @@ const listarProductos = () =>
 
 const listarUnProducto = (id) => {
      fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/${id}`,{
-             headers: {"Content-type": "application/json;charset=UTF-8"
+        method: "GET",    
+        headers: {"Content-type": "application/json;charset=UTF-8"
         }
     })
     .then((respuesta) => {
