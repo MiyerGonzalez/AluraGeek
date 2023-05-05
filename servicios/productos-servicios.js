@@ -1,6 +1,6 @@
 //GET
 const listarProductos = () =>
-    fetch(`https://us-east-1.aws.data.mongodb-api.com/app/data-goppt/producto/data/v1`, {
+    fetch(`https://us-east-1.aws.data.mongodb-api.com/app/data-goppt/producto.producto/data/v1`, {
         method: "GET",
         
         headers: {"Content-type": "application/json;charset=UTF-8"
