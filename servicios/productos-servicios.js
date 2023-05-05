@@ -1,6 +1,6 @@
 //GET
 const listarProductos = () =>
-    fetch(`https://us-east-1.aws.data.mongodb-api.com/app/data-goppt/producto.producto/data/v1`, {
+    fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto`, {
         method: "GET",
         
         headers: {"Content-type": "application/json;charset=UTF-8"
