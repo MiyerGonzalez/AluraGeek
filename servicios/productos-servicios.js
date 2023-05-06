@@ -12,7 +12,7 @@ const listarProductos = () =>
 
 
 const listarUnProducto = (id) => {
-    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/{productoiId}`)
+    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/{productoId}`)
     .then((respuesta) => {
         return respuesta.json();
     })
