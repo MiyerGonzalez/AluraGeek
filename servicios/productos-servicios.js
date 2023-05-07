@@ -23,7 +23,7 @@ const listarUnProducto = (id) => {
 //POST
 
 const creaProductos = (name, imageUrl, price) => {
-    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto`, {
+    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/productos`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const creaProductos = (name, imageUrl, price) => {
 
 //PUT/PATCH
 const alteraProduto = async(id,name, price, description) => {
-    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/${id}`, {
+    return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/productos/${id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json",
@@ -67,7 +67,7 @@ const alteraProduto = async(id,name, price, description) => {
 //DELETE
 
 const deleteProducto = async(id) => {
-    return await fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/producto/${id}`, {
+    return await fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/productos/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type":"application/json",
