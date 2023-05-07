@@ -309,7 +309,7 @@ nav{
         flex-grow: 0;
        }
        .login{
-        width: 260px;
+        width: 200px;
         display: flex;
         justify-content: end;
        }
