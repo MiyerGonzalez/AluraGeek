@@ -313,6 +313,9 @@ nav{
         display: flex;
         justify-content: end;
        }
+       button {
+        width: 130px;
+    }
 
         .logo-busqueda{
             margin-left: 0px;
