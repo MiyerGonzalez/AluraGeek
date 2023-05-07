@@ -189,6 +189,10 @@ input.input-nome{
 label.label-nome{
     text-align: center;
 }
+
+.footer{
+  width: 380px;
+}
   .rodapie{
     padding-left: 60px;
     text-align: center;
