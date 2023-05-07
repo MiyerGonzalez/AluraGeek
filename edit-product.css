@@ -176,5 +176,6 @@ label.label-nome{
   .rodapie{
     padding-left: 85px;
     text-align: center;
+    align-items: center;
   }
   }
