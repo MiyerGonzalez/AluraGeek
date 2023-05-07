@@ -48,7 +48,7 @@ const creaProductos = (name, imageUrl, price) => {
 //PUT/PATCH
 const alteraProduto = async(id,name, price, description) => {
     return fetch(`https://644b05cd4bdbc0cc3a89ccb1.mockapi.io/api/productos/${id}`, {
-        method: "PATCH",
+        method: "PUT",
         headers: {
             "Content-Type": "application/json",
         },
