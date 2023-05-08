@@ -330,7 +330,7 @@ nav{
         }
 
         .destaque{
-            width: auto;
+            width: 380px;
             height: 250px;
             background-image: url(assets/postergame.jpg);
             background-size: 120vw;
