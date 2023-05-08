@@ -380,14 +380,14 @@ nav{
             }
 
             .geral-prods{
-                margin: 12px;
+                margin: 0px;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
                 align-content: space-around;
                 justify-content: flex-start;
                 align-items: flex-end;
-                padding: 6px;
+                padding: 0px;
                 gap: 6px;
 
                 width: 375px;
