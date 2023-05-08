@@ -112,6 +112,10 @@
       flex-grow: 0;
     } 
 
+    .products_title{
+      padding: 0px;
+    }
+
     .rodapie{
       flex-direction: column;
   align-items: center;
