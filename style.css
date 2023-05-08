@@ -326,7 +326,6 @@ nav{
         }
 
         .destaque{
-            width: 380px;
             height: 200px;
             background-image: url(assets/banner.png);
             background-size: 100vw;
