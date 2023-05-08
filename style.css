@@ -331,7 +331,7 @@ nav{
             background-image: url(assets/banner.png);
             background-size: 380px;
             background-repeat: no-repeat;
-            padding-top: 0px;
+            padding: 0px;
         }
             .banner{
                 width: 380px;
