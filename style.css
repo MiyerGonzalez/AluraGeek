@@ -472,7 +472,7 @@ nav{
                 flex-grow: 0;
             }
             .label-float{
-                width: 370px;
+                width: auto;
                 height: 56px ;
             }
             input.input-nome{
@@ -484,7 +484,6 @@ nav{
             }
             label.label-nome{
                 text-align: center;
-                width: auto;
             }
         
         
