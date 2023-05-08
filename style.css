@@ -476,7 +476,7 @@ nav{
                 height: 56px ;
             }
             input.input-nome{
-                width: 340px;
+                width: 330px;
                 height: 56px ;
                 padding-left: 0px;
                 
@@ -484,7 +484,7 @@ nav{
             }
             label.label-nome{
                 text-align: center;
-                width: 340px;
+                width: 330px;
             }
             .form textarea{
                 width: 93%;
