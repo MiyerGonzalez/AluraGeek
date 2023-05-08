@@ -290,7 +290,7 @@ nav{
        }
 
        header{
-        width: 370px;
+        width: 360px;
         height: 120;
         padding: 0px;
         margin: 0px;
@@ -332,7 +332,7 @@ nav{
         }
 
         .destaque{
-            width: 370px;
+            width: 360px;
             height: 250px;
             background-image: url(assets/postergame.jpg);
             background-size: 120vw;
