@@ -77,7 +77,7 @@
   .deleteImage {
     width: 24px;
     height: 24px;
-    background-color: black;
+    background-color: rgb(212, 8, 8);
     border-color: blue;
   }
   
