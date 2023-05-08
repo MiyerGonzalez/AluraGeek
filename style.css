@@ -336,6 +336,7 @@ nav{
             .banner{
                 width: 380px;
                 height: 220px;
+                padding-left: 0px;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
