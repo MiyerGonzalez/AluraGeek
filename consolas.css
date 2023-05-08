@@ -390,7 +390,7 @@ nav{
             }
 
             .geral-prods{
-                margin: 12px;
+                margin: 0px;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
