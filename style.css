@@ -278,12 +278,12 @@ nav{
        
         body{
             position: relative;
-            width: 380px;
+            width: auto;
             background: #F5F5F5;
        }
 
        header{
-        width: 380px;
+        width: auto;
         height: 120px;
         padding: 0px;
        }
@@ -295,7 +295,7 @@ nav{
         align-items: center;
         gap:10px;
 
-        width: 380px;
+        width: auto;
         height: 100px;
 
         /* Preto/branco */
@@ -327,7 +327,7 @@ nav{
         }
 
         .destaque{
-            width: 380px;
+            width: auto;
             height: 200px;
             background-image: url(assets/banner.png);
             background-size: 380px;
@@ -335,7 +335,7 @@ nav{
             padding: 0px;
         }
             .banner{
-                width: 380px;
+                width: auto;
                 height: 220px;
                 padding-left: 0px;
                 display: flex;
@@ -390,7 +390,7 @@ nav{
                 padding: 0px;
                 gap: 6px;
 
-                width: 375px;
+                width: auto;
                 height: 7000px;
 
 
@@ -405,7 +405,7 @@ nav{
             padding: 0px;
             gap: 32px;
 
-            width: 380px;
+            width: auto;
             height: 650px;
             margin-bottom: 30px;
 
@@ -424,7 +424,7 @@ nav{
                 padding: 0px;
                 gap: 32px;
 
-                width: 380px;
+                width: auto;
                 height: 625px;
 
 
@@ -442,7 +442,7 @@ nav{
                 padding: 0px;
                 gap: 16px;
 
-                width: 400px;
+                width: auto;
                 height: 290px;
 
 
@@ -460,7 +460,7 @@ nav{
                 padding: 0px;
                 gap: 8px;
 
-                width: 380px;
+                width: auto;
                 height: 229px;
 
 
