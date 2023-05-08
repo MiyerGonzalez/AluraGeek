@@ -339,7 +339,7 @@ nav{
             padding: 0px;
         }
             .banner{
-                width: auto;
+                width: 380px;
                 height: 220px;
                 padding-left: 10px;
                 display: flex;
