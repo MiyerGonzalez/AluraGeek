@@ -329,7 +329,7 @@ nav{
             width: 380px;
             height: 200px;
             background-image: url(assets/banner.png);
-            background-size: 100vw;
+            background-size: 380px;
             background-repeat: no-repeat;
             padding-top: 0px;
         }
@@ -390,7 +390,7 @@ nav{
                 gap: 6px;
 
                 width: 375px;
-                height: 6600px;
+                height: 7000px;
 
 
                 /* Inside auto layout */
