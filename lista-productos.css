@@ -128,12 +128,12 @@
        
 	body{
 		position: relative;
-		width: 414px;
+		width: auto;
 		background: #F5F5F5;
    }
 
    header{
-	width: 300;
+	width: auto;
 	height: 120;
    }
 
@@ -144,7 +144,7 @@
 	align-items: center;
 	gap:10px;
 
-	width: 414px;
+	width: auto;
 	height: 100px;
 
 	/* Preto/branco */
@@ -178,9 +178,10 @@
 		background-size: 100vw;
 		background-repeat: no-repeat;
 		padding-top: 0px;
+		width: auto;
 	}
 		.banner{
-			width: 700;
+			width: auto;
 			height: 220px;
 			padding-left: 10px;
 			display: flex;
