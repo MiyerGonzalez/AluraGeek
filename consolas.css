@@ -284,13 +284,13 @@ nav{
        
         body{
             position: relative;
-            width: 420px;
+            width: auto;
             height: 1200px;
             background: #F5F5F5;
        }
 
        header{
-        width: 420px;
+        width: auto;
         height: 120;
         padding: 0px;
         margin: 0px;
@@ -332,7 +332,7 @@ nav{
         }
 
         .destaque{
-            width: 420px;
+            width: auto;
             height: 250px;
             background-image: url(assets/postergame.jpg);
             background-size: 120vw;
@@ -340,7 +340,7 @@ nav{
             padding: 0px;
         }
             .banner{
-                width: 420px;
+                width: auto;
                 height: 220px;
                 padding-left: 10px;
                 display: flex;
@@ -385,7 +385,7 @@ nav{
                     align-self: center;
             }
             main{
-                width: 420px;
+                width: auto;
                 margin: 0px;
             }
 
