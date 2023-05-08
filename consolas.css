@@ -292,6 +292,7 @@ nav{
        header{
         width: auto;;
         height: 120;
+        padding: 0px;
        }
 
        nav{
