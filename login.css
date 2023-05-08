@@ -65,7 +65,7 @@ main {
         padding: 10px;
         gap: 32px;
 
-        width: 410px;
+        width: auto;
         height: 650px;
         margin-bottom: 30px;
 
@@ -84,7 +84,7 @@ main {
             padding: 0px;
             gap: 32px;
 
-            width: 410px;
+            width: auto;
             height: 700px;
 
 
@@ -102,7 +102,7 @@ main {
             padding: 0px;
             gap: 16px;
 
-            width: 400px;
+            width: auto;
             height: 290px;
 
 
@@ -120,7 +120,7 @@ main {
             padding: 0px;
             gap: 8px;
 
-            width: 410px;
+            width: auto;
             height: 229px;
 
 
@@ -132,11 +132,12 @@ main {
             flex-grow: 0;
         }
         .input-nome:focus{
-            width: 350;
+            width: 340px;
             
         }
         .label-nome{
             text-align: center;
+            width: 340px;
         }
         .logo-busqueda{
           width: 200px;
