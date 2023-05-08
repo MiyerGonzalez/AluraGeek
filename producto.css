@@ -100,7 +100,7 @@
       padding: 0px;
       gap: 16px;
 
-      width: 150px;
+      width: auto;
       height: 209px;
 
 
@@ -111,6 +111,91 @@
       align-self: stretch;
       flex-grow: 0;
     } 
+
+    .rodapie{
+      flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 32px;
+
+  width: auto;
+  height: 650px;
+  margin-bottom: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+  
+  .contacto{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 32px;
+
+      width: auto;
+      height: 700px;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+  }
+  .links-utiles{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 16px;
+
+      width: auto;
+      height: 290px;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+  }
+  .form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+
+      width: auto;
+      height: 229px;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+  }
+  .input-nome:focus{
+      width: 340px;
+      
+  }
+  .label-nome{
+      text-align: center;
+      width: 340px;
+  }
+  .logo-busqueda{
+    width: 200px;
+  }
+  
   }
   
   
