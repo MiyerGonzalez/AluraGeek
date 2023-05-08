@@ -500,7 +500,7 @@ nav{
                 height: 56px ;
             }
             input.input-nome{
-                width: auto;
+                width: 340px;
                 height: 56px ;
                 padding-left: 0px;
                 
@@ -508,6 +508,7 @@ nav{
             }
             label.label-nome{
                 text-align: center;
+                width: 340px;
             }
         
         
