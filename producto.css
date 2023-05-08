@@ -93,9 +93,7 @@
   }
   
   @media only screen and (max-width: 480px){
-    .geral-products{
-      height: 7500px;
-    }
+    
     .products-section{
       display: flex;
       flex-direction: row;
