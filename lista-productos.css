@@ -259,7 +259,7 @@
 		padding: 0px;
 		gap: 32px;
 
-		width: 410px;
+		width: auto;
 		height: 650px;
 		margin-bottom: 30px;
 
@@ -278,7 +278,7 @@
 			padding: 15px;
 			gap: 32px;
 
-			width: 390px;
+			width: auto;
 			height: 625px;
 
 
@@ -296,7 +296,7 @@
 			padding: 0px;
 			gap: 16px;
 
-			width: 400px;
+			width: auto;
 			height: 290px;
 
 
@@ -314,7 +314,7 @@
 			padding: 0px;
 			gap: 8px;
 
-			width: 380px;
+			width: auto;
 			height: 229px;
 
 
@@ -326,17 +326,18 @@
 			flex-grow: 0;
 		}
 		.label-float{
-			width: 370px;
+			width: auto;
 			height: 56px ;
 		}
 		.input-nome{
-			width: 375px;
+			width: 340px;
 			height: 56px ;
 			
 			
 		}
 		.label-nome{
 			text-align: center;
+			width: 340px;
 		}
 
 	
