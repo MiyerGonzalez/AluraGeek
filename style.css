@@ -309,29 +309,22 @@ nav{
         align-self: stretch;
         flex-grow: 0;
        }
-
        .login{
-        justify-content: center;
-       }
-       .login button{
-        width: 80px;
+        width: 260px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
        }
-    
+       button {
+        width: 130px;
+    }
 
-        .logo-busqueda {
+        .logo-busqueda{
             margin-left: 0px;
-            width: 0px;
+            width: 100px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-
-    input{
-        display: none;
-    }
 
         .destaque{
             width: auto;
@@ -398,15 +391,12 @@ nav{
                 gap: 6px;
 
                 width: auto;
-                height: 1000vw;
+                height: 7000px;
 
 
                 /* Inside auto layout */
 
                
-            }
-            .prod-titulo{
-                margin-right: 150px;
             }
 
             footer{
@@ -486,7 +476,7 @@ nav{
                 height: 56px ;
             }
             input.input-nome{
-                width: 330px;
+                width: 340px;
                 height: 56px ;
                 padding-left: 0px;
                 
@@ -494,10 +484,7 @@ nav{
             }
             label.label-nome{
                 text-align: center;
-                width: 330px;
-            }
-            .form textarea{
-                width: 90%;
+                width: 340px;
             }
         
         
