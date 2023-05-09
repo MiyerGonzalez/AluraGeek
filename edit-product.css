@@ -149,11 +149,9 @@ main {
   }
 
   @media only screen and (max-width:480px) {
-    main{
-      padding: 0px;
-    }
+   
     .body{
-      width: 35px;
+      width: auto;
     }
     
     .cabecera{
