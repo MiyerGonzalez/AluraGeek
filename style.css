@@ -318,13 +318,17 @@ nav{
         width: 100px;
     }
 
-        .logo-busqueda input{
+        .logo-busqueda {
             margin-left: 0px;
             width: 0px;
-            display: none;
+            display: flex;
             align-items: center;
             justify-content: space-between;
         }
+
+    input{
+        display: none;
+    }
 
         .destaque{
             width: auto;
