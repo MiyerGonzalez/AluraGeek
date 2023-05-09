@@ -149,26 +149,19 @@ main {
   }
 
   @media only screen and (max-width:480px) {
-   
     .body{
-      width: auto;
+      width: 35px;
     }
     
     .cabecera{
-      width: auto;
+      width: 380px;
     }
 
-    .geral-products.products_title{
-      width: auto;
-      margin: 0px;
+    .geral-products{
+      width: 380px;
     }
     .prod-seleccionado{
       align-items: flex-start;
-    }
-
-    .prod-sel-texto{
-      width: auto;
-      height: 300px;
     }
     
   .img-sel{
@@ -184,7 +177,7 @@ main {
   }
 
   .label-float{
-    width: 340px;
+    width: 370px;
     height: 56px ;
 }
 input.input-nome{
@@ -198,7 +191,7 @@ label.label-nome{
 }
 
 footer{
-  width: auto;
+  width: 380px;
 }
   .rodapie{
     padding-left: 60px;
