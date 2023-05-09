@@ -157,6 +157,10 @@ main {
       width: 380px;
     }
 
+    .products_title{
+      width: auto;
+    }
+
     .geral-products{
       width: auto;
       margin: 0px;
