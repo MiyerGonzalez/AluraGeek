@@ -309,14 +309,12 @@ nav{
         align-self: stretch;
         flex-grow: 0;
        }
-       .login{
+       .login button{
         width: 80px;
         display: flex;
         justify-content: end;
        }
-       button {
-        width: 70px;
-    }
+    
 
         .logo-busqueda {
             margin-left: 0px;
