@@ -323,6 +323,10 @@ nav{
         justify-content: end;
        }
 
+       .logo-busqueda{
+        margin-left: 10px;
+       }
+
         .logo-busqueda input{
             margin-left: 0px;
             width: auto;
