@@ -164,6 +164,11 @@ main {
     .prod-seleccionado{
       align-items: flex-start;
     }
+
+    .prod-sel-texto{
+      width: auto;
+      height: 300px;
+    }
     
   .img-sel{
     width: 200px;
