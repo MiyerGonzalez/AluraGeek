@@ -227,6 +227,7 @@
 		.products_title{
 			padding-left: 5px;
 			flex-direction: column;
+			height: 150px;
 		}
 
 		.geral-products{
