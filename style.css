@@ -312,7 +312,7 @@ nav{
        .login button{
         width: 80px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
        }
     
 
