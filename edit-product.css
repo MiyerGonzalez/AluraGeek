@@ -158,7 +158,7 @@ main {
     }
 
     .geral-products{
-      width: 370px;
+      width: auto;
       margin: 0px;
     }
     .prod-seleccionado{
