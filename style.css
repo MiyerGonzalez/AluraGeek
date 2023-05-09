@@ -317,9 +317,12 @@ nav{
        button {
         width: 130px;
     }
+    .logo-busqueda{
+        margin-left: 5px;
+    }
 
         .logo-busqueda input{
-            margin-left: 0px;
+            
             width: 100px;
             display: none;
             align-items: center;
