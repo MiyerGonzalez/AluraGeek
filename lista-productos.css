@@ -159,14 +159,14 @@
 	flex-grow: 0;
    }
    .login{
-	width: 260px;
+	width: auto;
 	display: flex;
 	justify-content: end;
    }
 
 	.logo-busqueda{
 		margin-left: 0px;
-		width: 200px;
+		width: auto;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -191,7 +191,7 @@
 			
 		}
 		.banner h1{
-			width: 328px;
+			width: auto;
 			height: 26px;
 
 			font-family: 'Raleway';
@@ -239,7 +239,7 @@
 			padding: 6px;
 			gap: 6px;
 
-			width: 200px;
+			width: auto;
 			height: 7500px;
 
 
