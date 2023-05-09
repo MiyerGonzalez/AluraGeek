@@ -405,6 +405,9 @@ nav{
 
                
             }
+            .geral-prods.prod-titulo{
+                margin-right: 150px;
+            }
 
             footer{
                 flex-direction: column;
