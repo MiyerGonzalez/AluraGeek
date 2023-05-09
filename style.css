@@ -310,7 +310,7 @@ nav{
         flex-grow: 0;
        }
        .login{
-        width: 150px;
+        width: 80px;
         display: flex;
         justify-content: end;
        }
