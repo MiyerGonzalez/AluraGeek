@@ -318,10 +318,10 @@ nav{
         width: 130px;
     }
 
-        .logo-busqueda{
+        .logo-busqueda input{
             margin-left: 0px;
             width: 100px;
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: space-between;
         }
