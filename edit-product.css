@@ -159,6 +159,7 @@ main {
 
     .geral-products{
       width: 380px;
+      margin: 0px;
     }
     .prod-seleccionado{
       align-items: flex-start;
