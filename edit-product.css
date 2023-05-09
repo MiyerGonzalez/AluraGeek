@@ -155,7 +155,7 @@ main {
     }
     
     .cabecera{
-      width: 380px;
+      width: auto;
     }
 
     .products_title{
