@@ -309,14 +309,12 @@ nav{
         align-self: stretch;
         flex-grow: 0;
        }
-       .login{
-        width: 260px;
+       .login button{
+        width: 100px;
         display: flex;
         justify-content: end;
        }
-       button {
-        width: 130px;
-    }
+    
     .logo-busqueda{
         margin-left: 5px;
     }
