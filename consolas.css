@@ -253,7 +253,7 @@ nav{
       }
 
     .form textarea{
-        width: 100%;
+        width: 93%;
         font-family: "Relaway", sans-serif;
         border: transparent;
         color: var(--azul-destaque);
@@ -500,9 +500,6 @@ nav{
                 flex-grow: 0;
             }
 
-            .form textarea{
-                width: auto;
-            }
             .label-float{
                 width: auto;
                 height: 56px ;
