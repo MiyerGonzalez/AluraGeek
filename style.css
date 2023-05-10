@@ -309,6 +309,9 @@ nav{
         align-self: stretch;
         flex-grow: 0;
        }
+       .login{
+        width: 100px;
+       }
        .login button{
         width: 100px;
         display: flex;
